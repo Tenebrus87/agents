@@ -1,6 +1,10 @@
 name: Greetings
 
-on: [pull_request_target, issues]
+# Automatic triggers paused on 2026-10-28 at owner's request.
+# Restore the original trigger block below to re-enable automatic runs.
+# on: [pull_request_target, issues]
+on:
+  workflow_dispatch:
 
 jobs:
   greeting:
